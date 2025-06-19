@@ -1,1 +1,8 @@
-# RL_BU_1
+# Business-Driven Reinforcement Learning: Foundations of Value & Policy Methods (Part I)
+A Practical Guide to Value-Based and Policy-Based Methods for Smarter Decision-Making
+This paper is a practical guide to using reinforcement learning (RL) in business. I start by explaining value-function learning, then move to policy-gradient methods, and finish with the Actor–Critic approach - all shown with real, easy-to-grasp examples.
+Companies make decisions all the time - setting prices, running A/B tests, sending coupons - yet most tools never learn from what happens next. RL changes that. It runs a simple loop: make a choice → see the result → adjust the strategy. Because the system keeps updating, it quickly outperforms static, one-off tests.
+I start with value-function learning. Imagine an online retailer managing inventory: Q-learning automates reorder points by estimating the future value of today's stock levels. I'll walk through a smart-inventory case, show you how the value function is learned, and explain step-by-step how Q-learning drives better stocking decisions.
+Next comes policy-gradient methods. These techniques learn a direct mapping from state to action probabilities - perfect for real-time webpage layouts or surge pricing. You'll learn how to estimate the policy gradient, apply it in simple flowcharts, and see how small tweaks to the policy can create big business gains without building huge value tables.
+Finally, I introduce Actor–Critic, the hybrid that bridges value and policy learning. In this part, you'll grasp why AC works, explore a compact example, and understand its core algorithm. 
+By the end, you'll know which RL method to use, when, and why. This is your practical guide to applying reinforcement learning for real business impact.
